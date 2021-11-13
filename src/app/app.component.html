@@ -1,0 +1,19 @@
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span><button mat-stroked-button routerLink="">Home</button></span>
+  <span><button mat-stroked-button routerLink="list">List</button></span>
+  <span><button mat-stroked-button routerLink="details">Details</button></span>
+  <span><button mat-stroked-button routerLink="spacex">SpaceXdata</button></span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+<br>
+<p>The appcomponent is the home component. If you click the details,list and SpaceX button the route will change instead of the html page.</p>
+<router-outlet></router-outlet>
